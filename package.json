@@ -1,0 +1,51 @@
+{
+  "name": "@iftakhar/react-editor",
+  "version": "0.0.1",
+  "description": "react-editor",
+  "main": "dist/main.cjs.js",
+  "types": "dist/main.d.ts",
+  "module": "dist/main.esm.js",
+  "author": "Iftakharul Alam  <iftakharul28@gmail.com> (https://iftakharulalam.com)",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c --bundleConfigAsCjs"
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "keywords": [
+    "react",
+    "typescript",
+    "ui",
+    "@iftakhar/ui"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iftakharul28/iftakhar-editor.git"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@types/node": "^20.12.7",
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "postcss": "^8.4.38",
+    "prop-types": "^15.8.1",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
+    "rollup": "^4.16.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "style-loader": "^4.0.0",
+    "tinymce": "^7.3.0",
+    "tsc-hooks": "^1.1.2",
+    "typescript": "^5.4.5"
+  },
+  "peerDependencies": {
+    "react": "18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
