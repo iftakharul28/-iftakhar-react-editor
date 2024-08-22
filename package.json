@@ -1,5 +1,5 @@
 {
-  "name": "@iftakhar/react-editor",
+  "name": "@iftakhar/editor",
   "version": "0.0.1",
   "description": "react-editor",
   "main": "dist/main.cjs.js",
