@@ -3,6 +3,7 @@ import { IEvents } from '../Events';
 import { ScriptItem } from '../ScriptLoader2';
 import { IEditorPropTypes } from './EditorPropTypes';
 import type { Editor as TinyMCEEditor, TinyMCE } from 'tinymce';
+import '../styles/globals.css';
 type OmitStringIndexSignature<T> = {
     [K in keyof T as string extends K ? never : K]: T[K];
 };

@@ -17,8 +17,7 @@ export default {
     terser(),
     typescript({ tsconfig: './tsconfig.json' }),
     postcss({
-      extract: true,
-      minimize: true,
+      extensions: ['.css'],
     }),
   ],
   external: ['react', 'react-dom'],
