@@ -1,6 +1,6 @@
 {
   "name": "iftakhar-editor",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "react-editor",
   "main": "dist/main.cjs.js",
   "types": "dist/main.d.ts",
@@ -12,14 +12,15 @@
   },
   "files": [
     "dist",
+    "public",
     "LICENSE",
     "README.md"
   ],
   "keywords": [
     "react",
     "typescript",
-    "ui",
-    "@iftakhar/ui"
+    "editor",
+    "iftakhar-editor"
   ],
   "repository": {
     "type": "git",
